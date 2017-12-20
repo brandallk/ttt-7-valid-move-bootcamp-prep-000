@@ -17,7 +17,7 @@ def position_taken?(board, index)
 end
 
 board = [" ", "X", " ", "O", " ", " ", " ", " ", " "]
-puts position_taken?(board, 0)
-puts position_taken?(board, 1)
-puts position_taken?(board, 2)
-puts position_taken?(board, 3)
+puts valid_move?(board, 0)
+puts valid_move?(board, 1)
+puts valid_move?(board, 2)
+puts valid_move?(board, 3)
